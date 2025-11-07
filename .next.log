@@ -1,0 +1,157 @@
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\repositório thiago\ParteFrondEnd\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\repositório thiago\ParteFrondEnd\my-app\package-lock.json
+
+   ▲ Next.js 16.0.1 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.27.80.1:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 9.3s
+ GET /api/auth/health 200 in 1999ms
+[proxy] GET http://localhost:3000/api/auth/health
+[proxy] GET http://localhost:3000/api/auth/health
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 404ms (compile: 321ms, render: 83ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 49ms (compile: 31ms, render: 18ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 26ms (compile: 9ms, render: 17ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 28ms (compile: 8ms, render: 20ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 55ms (compile: 35ms, render: 20ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 25ms (compile: 7ms, render: 18ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 29ms (compile: 8ms, render: 21ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 25ms (compile: 8ms, render: 17ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 53ms (compile: 31ms, render: 22ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 20ms (compile: 7ms, render: 13ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 28ms (compile: 8ms, render: 20ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 44ms (compile: 28ms, render: 17ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 21ms (compile: 6ms, render: 15ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 25ms (compile: 7ms, render: 17ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 50ms (compile: 32ms, render: 18ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 19ms (compile: 6ms, render: 13ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 23ms (compile: 7ms, render: 16ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 23ms (compile: 7ms, render: 16ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 51ms (compile: 33ms, render: 18ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 20ms (compile: 7ms, render: 13ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 21ms (compile: 7ms, render: 13ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 52ms (compile: 34ms, render: 19ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 22ms (compile: 7ms, render: 15ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 25ms (compile: 8ms, render: 17ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 58ms (compile: 38ms, render: 20ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 25ms (compile: 8ms, render: 17ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 24ms (compile: 7ms, render: 18ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 28ms (compile: 9ms, render: 19ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 54ms (compile: 33ms, render: 21ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 27ms (compile: 8ms, render: 18ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 25ms (compile: 7ms, render: 17ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 30ms (compile: 9ms, render: 22ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 90ms (compile: 59ms, render: 31ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 26ms (compile: 9ms, render: 17ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 27ms (compile: 8ms, render: 19ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 24ms (compile: 7ms, render: 17ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 55ms (compile: 36ms, render: 19ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 21ms (compile: 6ms, render: 15ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 20ms (compile: 6ms, render: 14ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 27ms (compile: 8ms, render: 19ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 55ms (compile: 33ms, render: 22ms)
+[proxy] GET http://localhost:3000/api/auth/health
+ GET /api/auth/health 404 in 24ms (compile: 7ms, render: 17ms)
+[proxy] POST http://localhost:3000/api/auth/sign-up/email
+ POST /api/auth/sign-up/email 200 in 464ms (compile: 7ms, render: 457ms)
+ ○ Compiling / ...
+ GET / 200 in 8.4s (compile: 8.0s, render: 336ms)
+ GET /login 200 in 1084ms (compile: 891ms, render: 193ms)
+[proxy] POST http://localhost:3000/api/auth/sign-in/email
+[2m2025-11-07T16:45:34.529Z[0m [31mERROR[0m [1m[Better Auth]:[0m User not found { email: 'pietro.janeri@gmail.com' }
+ POST /api/auth/sign-in/email 401 in 329ms (compile: 38ms, render: 291ms)
+ GET /register 200 in 750ms (compile: 632ms, render: 118ms)
+[proxy] POST http://localhost:3000/api/auth/sign-up/email
+ POST /api/auth/sign-up/email 200 in 417ms (compile: 36ms, render: 381ms)
+ GET /login 200 in 280ms (compile: 240ms, render: 41ms)
+[proxy] POST http://localhost:3000/api/auth/sign-in/email
+ POST /api/auth/sign-in/email 200 in 363ms (compile: 36ms, render: 327ms)
+ ○ Compiling /dashboard ...
+ GET /dashboard 200 in 5.9s (compile: 5.7s, render: 216ms)
+ GET /avatars/shadcn.jpg 404 in 1066ms (compile: 936ms, render: 130ms)
+ ✓ Compiled in 536ms
+ GET /dashboard 200 in 538ms (compile: 287ms, render: 251ms)
+ ✓ Compiled in 466ms
+ GET /dashboard 200 in 248ms (compile: 173ms, render: 75ms)
+ GET /dashboard 200 in 82ms (compile: 9ms, render: 73ms)
+ GET /dashboard 200 in 65ms (compile: 11ms, render: 55ms)
+ GET /dashboard 200 in 74ms (compile: 9ms, render: 65ms)
+ GET /dashboard 200 in 116ms (compile: 19ms, render: 97ms)
+ GET /dashboard 200 in 78ms (compile: 11ms, render: 67ms)
+ GET /dashboard 200 in 69ms (compile: 12ms, render: 57ms)
+ GET /dashboard 200 in 82ms (compile: 10ms, render: 72ms)
+ GET /dashboard 200 in 115ms (compile: 10ms, render: 105ms)
+ GET /dashboard 200 in 57ms (compile: 9ms, render: 48ms)
+ GET /dashboard 200 in 65ms (compile: 8ms, render: 56ms)
+ GET /dashboard 200 in 48ms (compile: 7ms, render: 41ms)
+ GET /dashboard 200 in 51ms (compile: 9ms, render: 42ms)
+ GET /dashboard 200 in 53ms (compile: 10ms, render: 43ms)
+ GET /dashboard 200 in 60ms (compile: 9ms, render: 51ms)
+ GET /dashboard 200 in 633ms (compile: 297ms, render: 336ms)
+ ✓ Compiled in 536ms
+ GET /dashboard 200 in 311ms (compile: 255ms, render: 56ms)
+ GET /dashboard 200 in 63ms (compile: 10ms, render: 53ms)
+ GET /dashboard 200 in 71ms (compile: 7ms, render: 63ms)
+ GET /dashboard 200 in 84ms (compile: 10ms, render: 74ms)
+ GET /dashboard 200 in 67ms (compile: 8ms, render: 59ms)
+ GET /dashboard 200 in 74ms (compile: 11ms, render: 63ms)
+ GET /dashboard 200 in 69ms (compile: 12ms, render: 56ms)
+ GET /dashboard 200 in 70ms (compile: 13ms, render: 57ms)
+ GET /dashboard 200 in 68ms (compile: 13ms, render: 55ms)
+ GET /dashboard 200 in 58ms (compile: 10ms, render: 48ms)
+ GET /dashboard 200 in 57ms (compile: 10ms, render: 46ms)
+ GET /dashboard 200 in 57ms (compile: 11ms, render: 46ms)
+ GET /dashboard 200 in 63ms (compile: 12ms, render: 51ms)
+ GET /dashboard 200 in 62ms (compile: 11ms, render: 51ms)
+ GET /dashboard 200 in 55ms (compile: 10ms, render: 44ms)
+ GET /dashboard 200 in 64ms (compile: 12ms, render: 53ms)
+ GET /dashboard 200 in 70ms (compile: 12ms, render: 58ms)
+ ✓ Compiled in 451ms
+^C

@@ -1,5 +1,5 @@
 'use client'
-import { authClient } from "@/lib/auth-client";
+import { signUpEmail } from "@/lib/auth-client";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { useRouter } from "next/navigation";
@@ -11,7 +11,7 @@ export default function RegisterForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  async function handleRegister(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setError("");
     const formData = new FormData(event.currentTarget);
@@ -19,23 +19,20 @@ export default function RegisterForm() {
     const email = (formData.get("email") as string) || "";
     const senha = (formData.get("senha") as string) || "";
 
-    authClient.signUp.email(
-      {
-        name: name,
-        email: email,
-        password: senha,
-      },
-      {
-        onSuccess: () => router.push("/login"),
-        onRequest: () => setLoading(true),
-        onResponse: () => setLoading(false),
-        onError: (ctx: any) => setError(ctx?.error?.message || "Erro no cadastro"),
-      }
-    );
+    try {
+      setLoading(true);
+      await signUpEmail({ name, email, password: senha });
+      setLoading(false);
+      router.push("/login");
+    } catch (err: any) {
+      console.error("register error", err);
+      setLoading(false);
+      setError(err?.message || String(err) || "Erro inesperado no registro");
+    }
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form onSubmit={handleRegister} className="space-y-4">
       <Input name="name" />
       <Input name="email" />
       <Input name="senha" />

@@ -1,5 +1,5 @@
 'use client'
-import { authClient } from "@/lib/auth-client";
+import { signInEmail } from "@/lib/auth-client";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { useRouter } from "next/navigation";
@@ -11,25 +11,24 @@ export default function LoginForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  function handleLogin(event: React.FormEvent<HTMLFormElement>) {
+  async function handleLogin(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setError("");
     const formData = new FormData(event.currentTarget);
     const email = (formData.get("email") as string) || "";
     const senha = (formData.get("senha") as string) || "";
 
-    authClient.signIn.email(
-      {
-        email: email,
-        password: senha,
-      },
-      {
-        onSuccess: () => router.push("/dashboard"),
-        onRequest: () => setLoading(true),
-        onResponse: () => setLoading(false),
-        onError: (ctx: any) => setError(ctx?.error?.message || "Erro no login"),
-      }
-    );
+    try {
+      setLoading(true);
+      await signInEmail({ email, password: senha });
+      setLoading(false);
+      router.push("/dashboard");
+    } catch (err: any) {
+      console.error("login error", err);
+      setLoading(false);
+      setError(err?.message || String(err) || "Erro inesperado no login");
+    }
+
   }
 
   return (
